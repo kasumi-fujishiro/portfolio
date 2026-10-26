@@ -53,7 +53,9 @@ const works = [
     image: 'images/oshimap.jpg',
     summary: '推し活をする人のための地図アプリ「oshimap」です。推しにまつわるイベントや場所を地図で探したり、近くの飲食店を見つけたりできます。ファンの行動を見える形にして、推し活をもっと楽しく、動きやすくすることを目指しました。未来創造プロジェクトの成果発表会で学科賞をいただきました。',
     tech: ['HTML / CSS', 'JavaScript', 'Leaflet', 'PHP', 'PostgreSQL', 'Yahoo!ローカルサーチAPI', 'ホットペッパーグルメAPI'],
-    links: [],
+    links: [
+      { label: 'アプリを見る', url: 'https://gms.gdl.jp/~kasumi1246/oshi-map/frontend/login.html' },
+    ],
   },
   {
     id: 'mobilecloset',
@@ -79,6 +81,7 @@ const works = [
     summary: '「アウトプットがインプットになる」をテーマにした、開発を学ぶためのアプリです。作りたいものを入力すると、AIが使う技術を提案してコードを作り、クイズや穴埋めを通して中身を理解していけます。わたしは、出てきた技術を調べられる「技術辞書」のページを作りました。データサイエンス学部の学内ハッカソンで最優秀賞をいただきました。',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase', 'OpenAI API'],
     links: [
+      { label: 'アプリを見る', url: 'https://kanzankankaku2026-7-lrue.vercel.app/' },
       { label: 'GitHub', url: 'https://github.com/mao-sonobe/kanzankankaku2026-7' },
     ],
   },
@@ -93,6 +96,7 @@ const works = [
     summary: '地域の特色や地理の情報と、そこで生まれた地域活性化のアイデアをためて共有するWebアプリです。成功したアイデアだけでなく、失敗した理由や実施した結果も記録し、似た地域で挑戦する人の「道しるべ」になることを目指しています。わたしは、新しいデザイン案をもとに、画面全体の見た目を作り直しました。',
     tech: ['Vue.js', 'Vite', 'PHP', 'UIデザイン'],
     links: [
+      { label: 'アプリを見る', url: 'https://gms.gdl.jp/~knt416/SC2026/#/' },
       { label: 'GitHub', url: 'https://github.com/SakauchiKanato/SC2026' },
     ],
   },
